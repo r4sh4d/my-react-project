@@ -1,0 +1,39 @@
+@import './config';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 80px;
+  border-bottom: 1px solid lightgray;
+  &__logo {
+    padding: 16px 32px;
+    color: rgb(0, 199, 0);
+    float: left;
+  }
+
+  &__navigation {
+    padding: 26px 10px;
+    float: right;
+  }
+}
+
+.navigation {
+  &__item {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  &__link {
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+    transition: .5s color;
+  }
+  &__link:hover {
+    color:rgb(0, 199, 0);
+  }
+}

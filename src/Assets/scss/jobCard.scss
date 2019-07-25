@@ -1,0 +1,19 @@
+.job-card {
+  &__link {
+    display: block;
+    color: rgb(4, 126, 174);
+    text-decoration: none;
+    margin: 15px 0;
+  }
+  &__rating {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  &__company-name {
+    display: inline-block;
+  }
+  &__job-description {
+    margin-top: 5px;
+    width: 700px;
+  }
+}

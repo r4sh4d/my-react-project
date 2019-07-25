@@ -1,0 +1,17 @@
+@import './config';
+
+.job-container {
+    width: 84%;
+    margin: 0 auto;
+}
+
+.jobs {
+  background-color: rgb(244, 244, 244);
+  padding-bottom: 100px;
+  min-height: 80vh;
+  &__header {
+  text-align: center;
+  color: rgb(0, 199, 0);
+  padding: 20px 0;
+  }
+}
