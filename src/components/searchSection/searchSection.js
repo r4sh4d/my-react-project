@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from './../inputComponent/input';
 
-import './../../Assets/css/input.min.css';
+import './../../Assets/scss/input.scss';
 function SearchSection() {
   return (
     <section className="search page_search">

@@ -9,9 +9,6 @@ function JobCard(props) {
         <p className="job-card__company-name">Company - {props.companyName}</p>
         <p className="job-card__job-description">{props.jobDescription}</p>
       </div>
-      <div className="image-container">
-        {/* <img src={require(`${props.companyImage}`)} /> */}
-      </div>
     </div>
   );
 }

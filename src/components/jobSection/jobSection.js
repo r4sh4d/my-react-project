@@ -1,7 +1,7 @@
 import React from 'react';
 import JobCard from './../jobCard/jobCard';
 
-import './../../Assets/css/jobCard.min.css';
+import './../../Assets/scss/jobCard.scss';
 
 function JobSection() {
   return (
@@ -13,7 +13,6 @@ function JobSection() {
           jobRating="3.0/5.0"
           companyName="Livetalk"
           jobDescription="The best handmade pasta place you could get in Los Angeles. No, really. I went in on a Sunday around 2PM, and there was a huge line. We waited close to an hour, but honestly it was amazing!"
-        // companyImage="./../../images/companyImage.jpg"
         />
         <JobCard
           jobName="Senior Business Analyst"
