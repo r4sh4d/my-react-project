@@ -2,7 +2,7 @@ import React from 'react';
 
 function Input(props) {
   return (
-    <input className="search__input" type="text" placeholder={props.placeholder} />
+    <input className="input-field" type="text" placeholder={props.placeholder} />
   );
 }
 
